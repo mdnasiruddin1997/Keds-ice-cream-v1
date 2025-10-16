@@ -1,0 +1,582 @@
+@media(min-width:1900px) {
+     .kids-rewards {
+          right: 30%;
+     }
+}
+
+@media(max-width:1500px) {
+     nav.locations {
+          justify-content: center;
+     }
+
+     .update-content {
+          margin-left: 0;
+     }
+
+     .waffles-title {
+          h5 {
+               font-size: 50px;
+
+          }
+
+          a {
+               margin-top: 50px;
+          }
+
+          p {
+               padding-left: 50px;
+               padding-right: 50px;
+               font-size: 24px;
+
+          }
+     }
+
+     .update-content-YT .update-iframe iframe {
+          width: 550px;
+          height: 334px;
+     }
+
+     .kids-rewards {
+          right: 140px;
+
+          h6 {
+               font-size: 28px;
+          }
+
+          p {
+               font-size: 15px;
+          }
+     }
+
+     .footer-button {
+          padding: 10px 30px 10px 30px;
+          margin-top: 5px;
+          font-size: 15px;
+     }
+
+     .newsletter-label {
+          font-size: 20px;
+     }
+
+     /* footer part */
+
+}
+
+@media(max-width:1320px) {
+     .update-content .update-title h6 {
+          font-size: 35px;
+     }
+
+     .update-content .update-list {
+          ul {
+               margin: 30px 0 31px 0;
+
+               li {
+                    padding: 0 0 0 40px;
+                    background: url(/assets/img/list\ icon.png) no-repeat left 10px;
+
+                    a {
+                         font-size: 16px;
+                         line-height: 40px;
+                         padding-left: 30px;
+                    }
+               }
+          }
+     }
+}
+
+@media (max-width:1300px) {
+
+     /* navbar */
+     .navbar-nav {
+          gap: 2px;
+     }
+
+     .navbar-nav .nav-link {
+          font-size: 14px;
+     }
+
+     .kids-order {
+          font-size: 10px;
+          padding: 6px 18px 7px 15px;
+     }
+
+     .carousel-item .kids-banner {
+          top: 6rem;
+
+          h5 {
+               font-size: 45px;
+          }
+
+          p {
+               width: 60%;
+               line-height: 20px;
+               padding: 25px 0px 8px 0px;
+          }
+     }
+
+     .explore-content .nav-item .nav-link {
+          gap: 8px;
+          padding: 12px 30px 13px 30px;
+     }
+
+     .explore-icon img {
+          width: 150px;
+          height: 280px;
+     }
+
+     .kids-let-icon img {
+          width: 150px;
+          height: 280px;
+     }
+
+     /* update */
+     .update-content .update-title h6 {
+          font-size: 38px;
+     }
+
+     .update-content .update-list {
+          ul {
+               font-size: 15px;
+               line-height: 10px;
+
+               li {
+                    line-height: 40px;
+                    padding-left: 10px;
+
+                    a {
+
+                         font-size: 24px;
+
+                    }
+               }
+          }
+     }
+
+     .kisds-location-content h5 {
+          font-size: 20px;
+     }
+
+     .kisds-location-content p {
+          font-size: 20px;
+     }
+}
+
+@media(max-width:1200px) {
+     .carousel-item .kids-banner {
+          top: 4rem;
+          padding-bottom: 0;
+
+          h5 {
+               font-size: 45px;
+          }
+
+          p {
+               width: 70%;
+               line-height: 20px;
+               padding: 20px 0px 8px 0px;
+          }
+     }
+
+     .update-content .update-list {
+          ul {
+               margin: 20px 0 20px 0;
+               li {
+                    padding: 0 0 0 30px;
+
+                    a {
+                         font-size: 15px;
+                         padding-left: 20px;
+                    }
+               }
+          }
+     }
+
+     .update-content-YT .update-iframe iframe {
+          width: 481px;
+          height: 290px;
+          border: 5px solid #fff;
+     }
+
+     .explore .explore-icon {
+          img {
+               height: 250px;
+               width: 100%;
+          }
+     }
+
+     .explore-content .nav-item .nav-link {
+          gap: 8px;
+          padding: 10px 25px 10px 25px;
+          font-size: 10px;
+     }
+
+     .update-content .update-title h6 {
+          font-size: 30px;
+     }
+
+     .update {
+          left: 38%;
+     }
+
+
+     .waffles-title {
+          padding-top: 5rem;
+          padding-bottom: 107px;
+
+          h5 {
+               font-size: 40px;
+
+          }
+     }
+
+     .kids-title-sevice {
+          h5 {
+               line-height: 0px;
+               margin: 0px 0px;
+               font-size: 40px;
+          }
+     }
+
+     .kids-rewards {
+          right: 90px;
+     }
+
+     .kids-join {
+          right: 40px;
+     }
+.kids-footer-title {
+     h6 {
+          font-size: 18px;
+     }
+}
+
+     .footer-button {
+          padding: 10px 20px 10px 20px;
+     }
+}
+
+@media (max-width:1060px) {
+     .navbar-nav .nav-link {
+          font-size: 10px;
+     }
+
+     .update-content .update-title h6 {
+          font-size: 22px;
+     }
+
+
+     .waffles-title {
+          h5 {
+               font-size: 40px;
+               margin-bottom: 20px;
+          }
+
+          a {
+               margin-top: 40px !important;
+          }
+
+          p {
+
+               font-size: 18px;
+
+          }
+     }
+}
+
+@media (max-width:991px) {
+     .navbar-nav .nav-link {
+          font-size: 15px;
+          padding: 3px;
+     }
+
+     .carousel-item .kids-banner {
+          top: 2rem;
+
+          h5 {
+               font-size: 35px;
+          }
+
+          p {
+               width: 80%;
+               padding: 20px 0px 8px 0px;
+          }
+     }
+
+     .explore-icon img {
+          display: none;
+     }
+
+     .btn-danger {
+          font-size: 12px;
+     }
+
+     .kids-rewards {
+          left: 16%;
+
+          h6 {
+               font-size: 40px;
+          }
+
+          p {
+               font-size: 16px;
+          }
+     }
+
+     .keds-franchise {
+          margin-top: 50px;
+          margin-bottom: 60px
+     }
+
+     .kids-let-icon {
+          display: none;
+     }
+
+     .kids-explore-title h5 {
+          font-size: 30px;
+     }
+
+     .Explore {
+          left: 30%;
+     }
+
+
+     .kids-title-sevice {
+          h5 {
+               margin: 0px 6px;
+               margin-top: 8px;
+               font-size: 30px;
+          }
+     }
+
+     .kids-location .col-md-3 {
+          width: 33%;
+     }
+
+     .update-content-YT .update-iframe iframe {
+          margin-top: 30px;
+          margin-bottom: 80px;
+     }
+
+     .footer-button {
+          margin-top: 15px;
+     }
+}
+
+@media (max-width:768px) {
+
+     .carousel-item .kids-banner {
+          top: 2rem;
+
+          h5 {
+               font-size: 25px;
+          }
+
+          p {
+               font-size: 10px;
+               line-height: 10px;
+               width: 100%;
+               padding: 7px 0 0 0;
+          }
+     }
+
+     .kids-title-sevice {
+          h5 {
+               margin: 8px 6px 0px 6px;
+               font-size: 20px;
+          }
+     }
+
+     .kids-rewards {
+          h6 {
+               font-size: 30px;
+          }
+
+          p {
+               font-size: 15px;
+          }
+     }
+
+     .kids-location {
+          margin-top: 20px;
+     }
+
+     .kisd-lcation-title {
+          padding-bottom: 10px;
+          padding-top: 10px;
+     }
+
+     .kids-location .col-md-3 {
+          width: 50%;
+     }
+}
+
+@media(max-width:721px) {
+     .container-fluid {
+          margin-left: 10px;
+          margin-right: 10px;
+     }
+
+     .Explore {
+          left: 30%;
+          bottom: -60px
+     }
+
+     .Explore img {
+          height: 100px;
+          width: 200px;
+     }
+
+     .update {
+          left: 36%;
+     }
+
+     .update-content {
+          margin-top: 3rem;
+     }
+
+     .update-content-YT .update-iframe iframe {
+          width: 300px;
+          height: 180px;
+          margin: 50px 0 50px 0;
+     }
+
+     .waffles-title {
+          h5 {
+               font-size: 35px;
+               margin-bottom: 20px;
+          }
+
+          a {
+               margin-top: 30px !important;
+          }
+
+          p {
+               padding-left: 10px;
+               padding-right: 10px;
+               font-size: 15px;
+
+          }
+     }
+
+     .kids-rewards {
+          right: 16%;
+
+          h6 {
+               font-size: 20px;
+          }
+
+          p {
+               font-size: 10px;
+          }
+     }
+}
+
+@media (max-width: 520px) {
+     nav.locations {
+          gap: 8px;
+          justify-content: center;
+     }
+
+     nav.locations a {
+          font-size: 11px;
+          letter-spacing: 1px;
+     }
+
+     .carousel-item .kids-banner {
+          top: 10px;
+          left: 30px;
+
+          h5 {
+               font-size: 15px;
+          }
+
+          p {
+               line-height: 10px;
+               margin-bottom: 5px;
+          }
+     }
+
+     .update {
+          left: 40%;
+     }
+
+     .update-content .update-list {
+          ul {
+               li {
+                    a {
+                         font-size: 10px;
+                         font-weight: 400;
+                         line-height: 10px;
+                    }
+               }
+          }
+     }
+
+     .update-content-YT .update-iframe iframe {
+          width: 281px;
+          height: 190px;
+     }
+
+     .kisds-location-content h5 {
+          font-size: 24px;
+     }
+
+     .kisds-location-content p {
+          font-size: 24px;
+     }
+
+     .kids-explore-blog p {
+          font-size: 16px;
+          margin-bottom: 6px;
+     }
+
+     .kids-explore-blog img {
+          margin: 0;
+          height: 258px;
+     }
+
+     .kids-explore-title h5 {
+          font-size: 15px;
+          text-align: center;
+          margin-top: 7px;
+     }
+
+     .kids-explore-title {
+          margin-top: 2.375rem;
+     }
+
+     .container-fluid {
+          padding-left: 20px;
+          padding-right: 20px;
+     }
+
+     .Explore {
+          display: none;
+     }
+
+     .kids-location .col-md-3 {
+          width: 100%;
+     }
+
+     .kisd-lcation-title {
+          margin-top: 3px;
+          margin-bottom: 3px;
+          text-align: center;
+
+          h5 {
+               line-height: 18px;
+          }
+     }
+
+     .kisd-lcation-title img {
+          display: none;
+     }
+
+     .kids-footer-title ul {
+
+          margin-left: 24px;
+
+     }
+
+}

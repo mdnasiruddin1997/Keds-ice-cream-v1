@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/radicalis');
+
+:root {
+     --primary-color: #d0188e;
+     --secondary-color: #ff93be;
+     --text-color: #4b4342;
+     --border-color: #ffa3c8;
+     --font-family-primary: "Outfit", sans-serif;
+     --font-family-banner: "Radicalis", sans-serif;
+     --font-family-secondary: "Leckerli One", cursive;
+}
+
+body {
+     font-family: "Outfit", sans-serif;
+     font-size: 16px;
+     text-align: center;
+     box-sizing: border-box;
+}
+
+.container-fluid {
+     padding-left: 100px;
+     padding-right: 100px;
+}
+
+/* Navbar */
+.navbar {
+     padding: 9px 0 9px 0px;
+}
+
+.navbar-nav {
+     gap: 8px;
+}
+
+.navbar-nav .nav-link {
+     font-family: var(--font-family-primary);
+     font-size: 18px;
+     color: var(--text-color);
+}
+
+.kids-order, .btn-danger {
+     border-radius: 50px;
+     background-color: var(--primary-color);
+     border: none;
+     font-family: var(--font-family-primary);
+     font-size: 18px;
+     padding: 8px 25px 9px 25px;
+}
+
+/* Banner Part  */
+#carouselExample {
+     margin-top: 5.5rem;
+}
+
+.carousel-item .kids-banner {
+     text-align: justify;
+     left: 90px;
+     top: 7.75rem;
+     padding-bottom: 0;
+
+     h5 {
+          font-family: var(--font-family-banner);
+          font-size: 60px;
+          color: var(--secondary-color);
+          margin: 0;
+     }
+
+     p {
+          font-size: 17px;
+          font-family: var(--font-family-primary);
+          width: 45%;
+          line-height: 25px;
+          padding: 25px 0px 8px 0px;
+     }
+}
+
+/* Explore Our Flavors Part */
+.explore {
+     position: relative;
+}
+
+.explore .explore-icon {
+     position: absolute;
+     top: -68px;
+
+     img {
+          height: 290px;
+          width: 100%;
+     }
+}
+
+.kids-icons {
+     position: relative;
+}
+
+.kids-icons .kids-explore-icon {
+     position: absolute;
+     top: -7rem;
+     left: 26rem;
+}
+
+.kids-explore-icon img {
+     width: 495px;
+     height: 240px;
+}
+
+/* Update Part  */
+.update-part {
+     margin-top: 6.75rem;
+     background-color: #fff0f6;
+}
+
+.update-part-icon {
+     position: relative;
+
+}
+
+.update {
+     position: absolute;
+     bottom: -46px;
+     left: 45%;
+}
+
+.update-extar {
+     position: absolute;
+     background-color: #fff0f6;
+     border-radius: 50%;
+     padding: 6rem;
+     z-index: -9999;
+     left: -15%;
+}
+
+.update img {
+     height: 50px;
+     width: 150px;
+     margin-top: 25px;
+}
+
+.update-content {
+     margin-top: 6rem;
+     margin-left: 155px;
+}
+
+.update-content .update-title h6 {
+     font-family: var(--font-family-secondary);
+     font-size: 48px;
+     line-height: 11px;
+     margin: 5px 0 0 4px;
+}
+.update-content .update-list {
+     ul {
+          list-style: none;
+          text-align: left;
+          margin: 50px 0 31px 0;
+          li {
+               padding: 0 0 0 50px;
+               background: url(/assets/img/list\ icon.png) no-repeat left 20px;
+
+               a {
+                    text-decoration: none;
+                    font-size: 24px;
+                    font-weight: 500;
+                    font-family: var(--font-family-primary);
+                    color: var(--text-color);
+                    line-height: 60px;
+               }
+          }
+     }
+}
+.update-content-YT .update-iframe iframe {
+     margin: 107px 0 92px 0;
+     width: 681px;
+     height: 390px;
+     border: 10px solid #fff;
+     box-shadow: 0px 1px 19px 4px rgba(0, 0, 0, 0.35);
+     -webkit-box-shadow: 0px 1px 19px 4px rgba(0, 0, 0, 0.35);
+     -moz-box-shadow: 0px 1px 19px 4px rgba(0, 0, 0, 0.35);
+}
+/* Update End Part  */
+
+/* Waffles, Crepes & More  */
+.Explore-part-icon {
+     position: relative;
+
+}
+
+.Explore {
+     position: absolute;
+     bottom: -70px;
+     left: 38%;
+}
+
+
+.Explore img {
+     height: 150px;
+     width: 310px;
+}
+
+.kids-explore-title {
+     margin-top: 8.375rem;
+}
+
+.explore-content {
+     margin-top: 32px;
+}
+
+.kids-explore-title h5 {
+     font-family: var(--font-family-secondary);
+     font-size: 48px;
+     line-height: 11px;
+     justify-content: center;
+     margin: 0px 10px 0px 10px;
+}
+
+.explore-content .nav-item .nav-link {
+     border: 2px solid var(--border-color);
+     gap: 10px;
+     color: var(--text-color);
+     border-radius: 50px;
+     padding: 12px 45px 13px 45px;
+     font-size: 16px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+     background: var(--secondary-color);
+     color: #fffeff;
+     border: 3px solid #ffb3d1;
+}
+
+.kids-explore-blog h6 {
+     font-size: 30px;
+     font-family: var(--font-family-secondary);
+     color: var(--text-color);
+     margin-top: 10px;
+}
+
+.kids-explore-blog p {
+     font-size: 16px;
+     margin-bottom: 40px;
+
+}
+
+.kids-explore-blog img {
+     margin: 50px 0px 0px 0px;
+     height: 258px;
+}
+
+
+/* Button Part  */
+
+.kids-let {
+     position: relative;
+}
+
+.kids-let .kids-let-icon {
+     position: absolute;
+     right: 0;
+     top: -18rem;
+
+     img {
+          width: 100%;
+          height: 290px;
+     }
+}
+
+/* Waffles, Crepes & More */
+.waffles {
+     background: url(/assets/img/waffles\ bg.png) no-repeat center/ cover ;
+}
+
+.waffles-title {
+     padding: 16rem 0 207px 0;
+     h5 {
+          font-family: var(--font-family-secondary);
+          font-size: 60px;
+          margin-bottom: 30px;
+     }
+
+     img {
+          margin-bottom: 30px;
+     }
+
+     a {
+          margin-top: 50px;
+     }
+
+     p {
+          text-align: center;
+          padding-left: 50px;
+          padding-right: 50px;
+          font-size: 24px;
+          font-family: var(--font-family-primary);
+     }
+}
+
+/* Ked's Location */
+.kids-location {
+     margin-top: 65px;
+}
+
+.kids-location .container {
+     padding: 0px 50px 0px 50px;
+}
+
+.kisds-location-content {
+     background-color: var(--secondary-color);
+     text-align: center;
+     border: 3px solid #ffc7dd;
+     border-radius: 10px;
+     margin-top: 8px;
+     padding: 24px 0 33px 0;
+}
+
+.kisds-location-content h5 {
+     font-family: var(--font-family-primary);
+     color: #fff;
+     font-size: 24px;
+     line-height: 28px;
+}
+
+.kisds-location-content p {
+     font-family: var(--font-family-primary);
+     color: #fff;
+     font-size: 24px;
+     line-height: 28px;
+     margin: 0;
+}
+
+.kisd-lcation-title {
+     padding-bottom: 40px;
+     padding-top: 40px;
+}
+
+.kids-title-sevice {
+     h5 {
+          color: var(--text-color);
+          margin: 0px 10px;
+          line-height: 11px;
+          font-size: 48px;
+          font-family: var(--font-family-secondary);
+     }
+}
+
+.kids-com {
+     padding-top: 42px;
+}
+
+.location-bar {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 0;
+     margin: 20px 0 7rem 0;
+}
+
+.locations {
+     display: flex;
+     gap: 12px;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.locations a {
+     display: inline-block;
+     text-decoration: none;
+     color: var(--text-color);
+     font-size: 16px;
+     font-weight: 700;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     padding: 0 6px;
+     line-height: 1;
+}
+
+.locations a:not(:first-child)::before {
+     content: "|";
+     color: var(--text-color);
+     margin-right: 8px;
+     margin-left: 0;
+     font-weight: 600;
+}
+
+/* Ked’s Beautiful Moments */
+.kisd-lcation-title .kid-beaut {
+     margin-top: 30px;
+     margin-bottom: 42px;
+}
+
+.kids-beatiful .update {
+     bottom: -10px;
+}
+
+.kids-beatiful {
+     background-color: #fff0f6;
+
+     a {
+          margin-top: 38px;
+          margin-bottom: 45px;
+     }
+}
+
+.kids-beautiful .row {
+     --bs-gutter-x: 0;
+}
+
+/* Own a Ked’s Franchise and Join Ked’s Rewards */
+.keds-franchise {
+     margin-top: 76px;
+     margin-bottom: 115px;
+
+}
+
+.joing {
+     position: relative;
+}
+
+.kids-rewards {
+     position: absolute;
+     top: 41px;
+     right: 135px;
+     color: #fff;
+     h6 {
+          font-size: 38px;
+          font-family: var(--font-family-secondary);
+     }
+
+     p {
+          font-family: var(--font-family-primary);
+          font-size: 18px;
+     }
+}
+
+.kid-Franchise {
+     border: 2px solid #ffff;
+}
+
+/* Footer Part */
+.kids-footer {
+     padding: 55px 0 0 0;
+     background: #fff0f6;
+}
+
+.footer-image {
+     margin-bottom: 45px;
+     text-align: center;
+}
+
+.kids-footer-title {
+     h6 {
+          font-family: var(--font-family-primary);
+          font-size: 24px;
+          color: #ffff;
+          text-align: left;         
+          background-color: var(--primary-color);
+          padding: 15px 135px 10px 30px;
+          margin-bottom: 15px;
+     }
+}
+
+.kids-footer-title ul {
+     list-style: none;
+     margin-left: 25px;
+     padding: 0;
+     text-align: left;
+
+     li {
+          padding: 0 0 0 24px;
+          background: url(/assets/img/footer\ list\ icon.png) no-repeat left 10px;
+     }
+
+     li a {
+          line-height: 30px;
+          margin-left: 10px;
+          text-decoration: none;
+          font-size: 18px;
+          font-family: var(--font-family-primary);
+          color: var(--text-color);
+
+     }
+}
+
+.newsletter-section {
+     background-color: #f9d8e5;
+     padding: 20px 0;
+     margin-top: 20px;
+}
+
+.newsletter-input {
+     flex: 1;
+     outline: none;
+     padding-top: 5px;
+}
+
+.newsletter-input [type=email] {
+     padding: 8px;
+     font-family: var(--font-family-primary);
+     font-size: 14px;
+}
+
+.newsletter-label {
+     font-family: var(--font-family-primary);
+     font-size: 26px;
+     color: var(--text-color);
+     font-weight: 500;
+}
+
+.input-group-text {
+     background: #fff;
+     border-left: none;
+}
+
+.footer-button {
+     background-color: var(--primary-color);
+     margin-top: 6px;
+     margin-left: -3rem;
+     padding: 5px 35px 5px 35px;
+     font-weight: 600;
+     border: none;
+}
+
+.form-control:focus {
+     outline: none;
+     border-color: none;
+     box-shadow: none;
+}
+
+.copyright {
+     background-color: var(--primary-color);
+     color: var(--secondary-color);
+     font-size: 18px;
+     padding: 25px 0 13px 0;
+}
+
+.kids-footer {
+     .col-lg-2 {
+          padding: 0px;
+     }
+
+     .col-lg-4 {
+          padding: 0px;
+     }
+}
+
+.copyright row {
+     padding: 0;
+     margin: 0;
+}
